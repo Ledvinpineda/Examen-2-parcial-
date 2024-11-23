@@ -34,4 +34,10 @@ public class Paciente_LJPP extends Persona_LJPP {
         this.enfermedad_LJPP = enfermedad_LJPP;
     }
 
+    @Override
+    public void mostrarInformacion(){
+        super.mostrarInformacion();
+        System.out.println("Historial:" + NhISTORIAL_LJPP);
+        System.out.println("Enfermedad: " + enfermedad_LJPP);
+    }
 }

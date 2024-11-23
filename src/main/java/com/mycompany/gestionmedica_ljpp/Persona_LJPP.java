@@ -42,6 +42,11 @@ public class Persona_LJPP {
     public void setDireccion_LJPP(String direccion_LJPP) {
         this.direccion_LJPP = direccion_LJPP;
     }
-
+    
+    public void mostrarInformacion(){
+        System.out.println("Nombre:" + nombre_LJPP);
+        System.out.println("Edad:" + edad_LJPP);
+        System.out.println("Direccion:" + direccion_LJPP);
+    }
     
 }

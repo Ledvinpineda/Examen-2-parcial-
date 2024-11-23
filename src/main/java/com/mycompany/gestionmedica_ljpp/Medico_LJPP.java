@@ -33,5 +33,11 @@ public class Medico_LJPP extends Persona_LJPP {
     public void setAniose_LJPP(int aniose_LJPP) {
         this.aniose_LJPP = aniose_LJPP;
     }
-    
+   
+    @Override
+    public void mostrarInformacion(){
+        super.mostrarInformacion();
+        System.out.println("Especialidad " + especialidad_LJPP);
+        System.out.println("Años de Experiencia " + aniose_LJPP);
+    }
 }
